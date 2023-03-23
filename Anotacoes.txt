@@ -1,0 +1,14 @@
+Projeto Academia
+-Angular Commit
+
+senha banco: password
+
+banco criado em 22/03
+CREATE TABLE usuario (
+    usuario_id smallint NOT NULL,
+    usuario_name character varying(15) NOT NULL,
+	usuario_login character varying(10) NOT NULL,
+	usuario_senha character varying(20) NOT NULL,
+    description text,
+    picture bytea
+);
