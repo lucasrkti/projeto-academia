@@ -1,3 +1,5 @@
+using System.Security.Cryptography.X509Certificates;
+
 namespace projeto_academia
 {
     internal static class Program
@@ -14,6 +16,7 @@ namespace projeto_academia
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new FrmLogin());
+           
         }
     }
 }

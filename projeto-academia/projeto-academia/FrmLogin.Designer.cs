@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnLogin = new System.Windows.Forms.Button();
-            this.lblUsuario = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.C = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -44,14 +44,15 @@
             this.btnLogin.TabIndex = 0;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // lblUsuario
+            // txtUsuario
             // 
-            this.lblUsuario.Location = new System.Drawing.Point(57, 136);
-            this.lblUsuario.MaxLength = 15;
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(132, 23);
-            this.lblUsuario.TabIndex = 1;
+            this.txtUsuario.Location = new System.Drawing.Point(57, 136);
+            this.txtUsuario.MaxLength = 15;
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(132, 23);
+            this.txtUsuario.TabIndex = 1;
             // 
             // txtSenha
             // 
@@ -98,7 +99,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.C);
             this.Controls.Add(this.txtSenha);
-            this.Controls.Add(this.lblUsuario);
+            this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.btnLogin);
             this.Name = "FrmLogin";
             this.Text = "Login";
@@ -110,7 +111,7 @@
         #endregion
 
         private Button btnLogin;
-        private TextBox lblUsuario;
+        private TextBox txtUsuario;
         private TextBox txtSenha;
         private Label C;
         private Label label2;
