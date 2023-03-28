@@ -12,13 +12,14 @@ namespace projeto_academia
         private string usuario = string.Empty;
         private string senha = string.Empty;
       
-    
+        Usuarios UsuarioAcademia = new Usuarios();
+       
         #endregion
 
         #region Construtor
             public void Acesso ()
         {
-
+           
         }
         #endregion
 
