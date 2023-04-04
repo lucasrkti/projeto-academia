@@ -15,3 +15,7 @@ C:\dev\Projeto Academia\projeto-academia\projeto-academia\obj\Debug\net6.0-windo
 C:\dev\Projeto Academia\projeto-academia\projeto-academia\obj\Debug\net6.0-windows\projeto-academia.pdb
 C:\dev\Projeto Academia\projeto-academia\projeto-academia\obj\Debug\net6.0-windows\projeto-academia.genruntimeconfig.cache
 C:\dev\Projeto Academia\projeto-academia\projeto-academia\obj\Debug\net6.0-windows\ref\projeto-academia.dll
+C:\dev\Projeto Academia\projeto-academia\projeto-academia\bin\Debug\net6.0-windows\Npgsql.dll
+C:\dev\Projeto Academia\projeto-academia\projeto-academia\bin\Debug\net6.0-windows\Npgsql.pdb
+C:\dev\Projeto Academia\projeto-academia\projeto-academia\bin\Debug\net6.0-windows\Npgsql.xml
+C:\dev\Projeto Academia\projeto-academia\projeto-academia\obj\Debug\net6.0-windows\projeto-academia.csproj.CopyComplete
