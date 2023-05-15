@@ -10,6 +10,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EntityFramework6.Npgsql" Version="6.4.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Npgsql" Version="7.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="Npgsql">
       <HintPath>..\..\..\..\Program Files (x86)\PostgreSQL\Npgsql\bin\net451\Npgsql.dll</HintPath>
     </Reference>
